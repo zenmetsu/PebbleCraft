@@ -1,0 +1,100 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "qpsk31@gmail.com",
+    "longName": "PebbleCraft",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/MCclockD0F.png",
+                "name": "IMAGE0F",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD0E.png",
+                "name": "IMAGE0E",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD0D.png",
+                "name": "IMAGE0D",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD0C.png",
+                "name": "IMAGE0C",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD0B.png",
+                "name": "IMAGE0B",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD0A.png",
+                "name": "IMAGE0A",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD09.png",
+                "name": "IMAGE09",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD08.png",
+                "name": "IMAGE08",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD07.png",
+                "name": "IMAGE07",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD06.png",
+                "name": "IMAGE06",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD05.png",
+                "name": "IMAGE05",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD04.png",
+                "name": "IMAGE04",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD03.png",
+                "name": "IMAGE03",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD02.png",
+                "name": "IMAGE02",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD01.png",
+                "name": "IMAGE01",
+                "type": "png"
+            },
+            {
+                "file": "images/MCclockD00.png",
+                "name": "IMAGE00",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "PebbleCraft",
+    "uuid": "4a08019e-4b16-478b-aacf-cd9013c226f3",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
