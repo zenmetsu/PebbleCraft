@@ -48,7 +48,6 @@ static void set_container_image(GBitmap **bmp_image, BitmapLayer *bmp_layer, con
 static void update_display(struct tm *current_time) {
   unsigned short daypart = (60*(current_time->tm_hour) + current_time->tm_min)/90;
 
-  //set_container_image(&day_name_image, day_name_layer, DAY_NAME_IMAGE_RESOURCE_IDS[current_time->tm_wday], GPoint(69, 61));
   set_container_image(&day_part_image, day_part_layer, DAY_PART_IMAGE_RESOURCE_IDS[daypart], GPoint(16, 20));
 
 }
@@ -89,9 +88,9 @@ static void init(void) {
 
 
 static void deinit(void) {
-  //layer_remove_from_parent(bitmap_layer_get_layer(background_layer));
-  //bitmap_layer_destroy(background_layer);
-  //gbitmap_destroy(background_image);
+  layer_remove_from_parent(bitmap_layer_get_layer(background_layer));
+  bitmap_layer_destroy(background_layer);
+  gbitmap_destroy(background_image);
 
   layer_remove_from_parent(bitmap_layer_get_layer(day_part_layer));
   bitmap_layer_destroy(day_part_layer);
