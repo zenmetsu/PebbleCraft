@@ -9,6 +9,11 @@
     "resources": {
         "media": [
             {
+                "file": "images/black.png",
+                "name": "BLACK",
+                "type": "png"
+            },
+            {
                 "file": "images/MCclockD0F.png",
                 "name": "IMAGE0F",
                 "type": "png"
